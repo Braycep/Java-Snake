@@ -52,6 +52,10 @@ public class SnakeFrame extends Frame {
         new Thread(paintThread).start();
     }
 
+    /**
+     * 绘制背景网格
+     * @param g
+     */
     @Override
     public void paint(Graphics g){
         //设置网格线的颜色
